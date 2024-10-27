@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 
 import logoLight from "../assets/images/logo-light.png"
-
+import logolight1 from "../assets/images/logolight1.png"
 import {FiFacebook, FiLinkedin, FiInstagram, FiTwitter,FiMail, FiPhone, FiMapPin} from '../assets/icons/vander'
 
 export default function Footer(){
@@ -14,7 +14,7 @@ export default function Footer(){
                 <div className="row">
                     <div className="col-xl-5 col-lg-4 mb-0 mb-md-4 pb-0 pb-md-2">
                         <Link to="#" className="logo-footer">
-                            <img src={logoLight} height="22" alt=""/>
+                            <img src={logolight1 } height="73" alt=""/>
                         </Link>
                         <p className="mt-4 me-xl-5">Great doctor if you need your family member to get effective immediate assistance, emergency treatment or a simple consultation.</p>
                     </div>
@@ -82,7 +82,7 @@ export default function Footer(){
                     <div className="row align-items-center">
                         <div className="col-sm-6">
                             <div className="text-sm-start text-center">
-                                <p className="mb-0">{new Date().getFullYear()}© Doctris. Design & Develop with <i className="mdi mdi-heart text-danger"></i> by <Link to="https://shreethemes.in/" target="_blank" className="text-reset">Shreethemes</Link>.</p>
+                                <p className="mb-0">{new Date().getFullYear()}© HealthCareSolutions. Design & Develop with <i className="mdi mdi-heart text-danger"></i> by <Link to="https://shreethemes.in/" target="_blank" className="text-reset">belkahlaRayen</Link>.</p>
                             </div>
                         </div>
 
